@@ -51,3 +51,10 @@ a:link, a:visited{
 a:hover, a:active{
     color: rgb(150, 131, 24);
 }
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: rgb(169, 181, 193);
+    line-height: 1;
+}
