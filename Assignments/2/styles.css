@@ -74,3 +74,13 @@ h3{
     line-height: 1;
 
 }
+
+ul li{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    word-spacing: 1px;
+    color: rgb(179, 171, 171);
+
+}
