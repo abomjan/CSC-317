@@ -38,3 +38,16 @@ nav{
     text-align: center;
     line-height: 5;
 }
+
+a:link, a:visited{
+    color: azure;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover, a:active{
+    color: rgb(150, 131, 24);
+}
