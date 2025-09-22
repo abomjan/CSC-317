@@ -58,3 +58,11 @@ h2{
     color: rgb(169, 181, 193);
     line-height: 1;
 }
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    color: rgb(179, 171, 171);
+    line-height: 1.5;
+    font-size: 18px;
+}
