@@ -10,7 +10,7 @@ body{
 
 #calc{
     font-family:'Courier New', Courier, monospace;
-    background-color: black;
+    background-color: #2B2D42;
     border-radius: 20px;
     max-width: 500px;
 }
@@ -20,7 +20,7 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: black;
+    background-color: #2B2D42;
     border-radius: 20px;
 }
 
@@ -28,14 +28,27 @@ body{
     display: grid;
 }
 
+#row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 button{
-    background-color: grey;
+    background-color: #8D99AE;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: none;
-    color: white;
+    color: #EDF2F4;
     font-size: 2rem;
     font-weight: 150;
     margin: 5px;
+}
+
+#specials{
+    background-color: #D80032;
+}
+
+#operator{
+    background-color: #EF233C;
 }
