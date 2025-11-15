@@ -6,7 +6,7 @@ buttons.forEach(buttons=>{
     buttons.addEventListener('click', (e)=>{
         const buttonText = e.target.innerText;
 
-        if(buttonText === 'C'){
+        if(buttonText === 'AC'){
             clearDisplay();
         }
         else if(buttonText === '='){
@@ -17,3 +17,11 @@ buttons.forEach(buttons=>{
         }
     });
 });
+
+const appendToDisplay = (input) => {
+    display.value += input;
+};
+
+const clearDisplay = () => {
+    display.value = "";
+};
