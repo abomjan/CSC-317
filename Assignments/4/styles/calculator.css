@@ -18,7 +18,8 @@ body{
 #display{
     width: 100%;
     font-size: 5rem;
-    text-align: left;
+    text-align: right;
+    color: white;
     border: none;
     background-color: #2B2D42;
     border-radius: 20px;

@@ -12,6 +12,12 @@ buttons.forEach(buttons=>{
         else if(buttonText === '='){
             calculate();
         }
+        else if(buttonText === '+/-'){
+            toggleSign();
+        }
+        else if(buttonText === 'X'){
+            appendToDisplay('*');
+        }
         else{
             appendToDisplay(buttonText);
         }
@@ -24,6 +30,17 @@ const appendToDisplay = (input) => {
 
 const clearDisplay = () => {
     display.value = "";
+};
+
+const toggleSign = () => {
+    if(display.value){
+        if(display.value.startsWith('-')){
+            display.value = display.value.slice(1);
+        }
+        else{
+            display.value = '-' + display.value;
+        }
+    }
 };
 
 const calculate = () => {
