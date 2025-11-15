@@ -1,55 +1,68 @@
-body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: beige;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
 }
 
-#calc{
-    font-family:'Courier New', Courier, monospace;
-    background-color: #2B2D42;
-    border-radius: 20px;
-    max-width: 500px;
+#calc {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #2b2d42;
+  border-radius: 20px;
+  max-width: 500px;
 }
 
-#display{
-    width: 100%;
-    font-size: 5rem;
-    text-align: right;
-    color: white;
-    border: none;
-    background-color: #2B2D42;
-    border-radius: 20px;
+#display {
+  width: 100%;
+  font-size: 5rem;
+  text-align: right;
+  color: white;
+  border: none;
+  background-color: #2b2d42;
+  border-radius: 20px;
 }
 
-#keys{
-    display: grid;
+#keys {
+  display: grid;
 }
 
-#row{
-    display: flex;
-    justify-content: space-evenly;
+#row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-button{
-    background-color: #8D99AE;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: none;
-    color: #EDF2F4;
-    font-size: 2rem;
-    font-weight: 150;
-    margin: 5px;
+button {
+  background-color: #8d99ae;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  color: #edf2f4;
+  font-size: 2rem;
+  font-weight: 150;
+  margin: 5px;
+  cursor: pointer;
 }
 
-#specials{
-    background-color: #D80032;
+button:hover{
+    background-color: gray;
 }
 
-#operator{
-    background-color: #EF233C;
+#specials {
+  background-color: #d80032;
+}
+
+#specials:hover {
+  background-color: maroon;
+}
+
+#operator {
+  background-color: #ef233c;
+}
+
+#operator:hover {
+  background-color: maroon;
 }
