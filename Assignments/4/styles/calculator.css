@@ -149,3 +149,16 @@ button {
     font-size: 2rem;
   }
 }
+
+a:link, a:visited{
+    color: black;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover, a:active{
+    color: rgb(150, 131, 24);
+}
