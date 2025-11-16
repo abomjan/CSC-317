@@ -26,7 +26,7 @@ h1{
     font-weight: bold;
 }
 
-img{
+.pfp{
 
     display: block;
     margin: auto;
@@ -85,7 +85,21 @@ ul li{
 
 }
 
+img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 250px;
+}
+.clp{
 
+    height: 150px;
+    width: 150px;
+    border-radius: 0;
+    display: block;
+    margin: 10px;
+    
+}
 .github{
     width: 48px;
 }
